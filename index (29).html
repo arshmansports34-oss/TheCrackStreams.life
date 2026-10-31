@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrackStreams, Streameast, MethStreams, Sportsurge — Watch Live Sports Streams</title>
+<meta name="description" content="CrackStreams, Streameast, MethStreams, Sportsurge — every live sport on one board. NFL, NBA, UFC, boxing, soccer and more with kickoff times, live badges and one-tap streams.">
+<meta name="keywords" content="crackstreams, streameast, methstreams, sportsurge, crack streams, the crackstreams, live sports streams, nfl streams, nba streams, ufc streams, boxing streams, soccer streams, mlb streams, nhl streams, f1 streams, watch sports online free, thecrackstreams.life">
+<meta name="author" content="CrackStreams">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0a0e1a">
+<meta name="application-name" content="CrackStreams">
+<link rel="canonical" href="https://thecrackstreams.life/">
+
+<!-- favicon -->
+<link rel="icon" type="image/svg+xml" href="https://streameastv2.mom/favicon.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="https://streameastv2.mom/favicon.svg">
+<link rel="apple-touch-icon" href="https://streameastv2.mom/favicon.svg">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CrackStreams">
+<meta property="og:title" content="CrackStreams, Streameast, MethStreams, Sportsurge — Watch Live Sports Streams">
+<meta property="og:description" content="Every live sport on one board. NFL, NBA, UFC, boxing, soccer and more — one tap from board to stream.">
+<meta property="og:url" content="https://thecrackstreams.life/">
+<meta property="og:image" content="https://streameastv2.mom/favicon.svg">
+<meta property="og:image:alt" content="CrackStreams — live sports schedule">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CrackStreams, Streameast, MethStreams, Sportsurge — Watch Live Sports Streams">
+<meta name="twitter:description" content="Every live sport on one board. NFL, NBA, UFC, boxing, soccer and more.">
+<meta name="twitter:image" content="https://streameastv2.mom/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "name":"CrackStreams",
+      "alternateName":["CrackStreams","Streameast","MethStreams","Sportsurge"],
+      "url":"https://thecrackstreams.life/",
+      "image":"https://streameastv2.mom/favicon.svg",
+      "potentialAction":{
+        "@type":"SearchAction",
+        "target":{"@type":"EntryPoint","urlTemplate":"https://thecrackstreams.life/?q={search_term_string}"},
+        "query-input":"required name=search_term_string"
+      }
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"Are CrackStreams, Streameast, MethStreams and Sportsurge the same site?","acceptedAnswer":{"@type":"Answer","text":"Yes. CrackStreams, Streameast, MethStreams and Sportsurge are four names for the same board. The schedule, the match cards and the player page are shared, so whichever name you searched, you land on the same live sports list."}},
+        {"@type":"Question","name":"Does CrackStreams show UFC and boxing?","acceptedAnswer":{"@type":"Answer","text":"Yes. UFC fight cards, boxing events and MMA nights appear on the board whenever they are scheduled, each with kickoff times and a live badge once the action starts."}},
+        {"@type":"Question","name":"Can I watch the NFL and NBA on the same board?","acceptedAnswer":{"@type":"Answer","text":"Yes. The board carries every sport in the feed at once — NFL Sundays, NBA weeknights, soccer, baseball, hockey and more — and the sport chips let you cut the list down to any one of them in a tap."}},
+        {"@type":"Question","name":"How do I find one specific game fast?","acceptedAnswer":{"@type":"Answer","text":"Type the team or fighter name into the search bar and the board narrows with every letter. You can also open a shared link like thecrackstreams.life/?q=your-team, which arrives with the filter already applied."}},
+        {"@type":"Question","name":"Do I need an account for CrackStreams, Streameast, MethStreams, Sportsurge?","acceptedAnswer":{"@type":"Answer","text":"No. There is no sign-up form, no email capture and no payment step anywhere. Open the page, find your event and press watch."}},
+        {"@type":"Question","name":"Does the board work on phones and smart TVs?","acceptedAnswer":{"@type":"Answer","text":"Yes. The board adapts to any screen size and the player works in any modern browser, including smart TV browsers, with full-screen support everywhere."}},
+        {"@type":"Question","name":"What should I do if a stream buffers?","acceptedAnswer":{"@type":"Answer","text":"Press Reload Stream on the player page once. If it still struggles, open the direct link in a new tab, and if the problem persists, report the event on the Discord server linked in the header."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#0a0e1a; --card:#111a2c; --card2:#0d1526; --line:rgba(148,163,184,.12); --line2:rgba(148,163,184,.3);
+  --ink:#f1f5f9; --ink2:#cbd5e1; --ink3:#7c8aa5;
+  --accent:#8b5cf6; --accent2:#7c3aed; --gold:#f59e0b;
+  --red:#f43f5e; --red2:#e11d48;
+  --text:var(--ink); --text2:#aeb9cc; --text3:#7c8aa5; --live:#f43f5e;
+  --display:'Bricolage Grotesque',system-ui,sans-serif; --body:'DM Sans',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font-family:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* dark glow orbs */
+.bg-orbs{position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(900px 520px at 82% -12%,rgba(139,92,246,.14),transparent 62%),
+  radial-gradient(760px 480px at -8% 24%,rgba(59,130,246,.10),transparent 62%),
+  radial-gradient(640px 420px at 55% 112%,rgba(244,63,94,.08),transparent 62%)}
+
+.app{max-width:1280px;margin:0 auto;padding:1rem 1.25rem 4rem}
+
+/* header */
+.header{position:sticky;top:.75rem;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:.7rem 1rem .7rem 1.1rem;border-radius:18px;background:rgba(13,21,38,.82);border:1px solid var(--line);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 6px 24px rgba(0,0,0,.45)}
+.logo{display:flex;align-items:center;gap:.65rem;font-family:var(--display);font-weight:800;font-size:1.4rem;letter-spacing:-.03em;color:var(--ink)}
+.logo-mark{width:44px;height:44px;border-radius:12px;overflow:hidden;flex:0 0 auto;box-shadow:0 4px 14px rgba(139,92,246,.35)}
+.logo-mark svg{width:100%;height:100%;display:block}
+.head-right{display:flex;align-items:center;gap:.75rem}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--live);box-shadow:0 0 10px rgba(244,63,94,.5);animation:pulse 1.4s infinite}
+@keyframes pulse{50%{opacity:.45;transform:scale(.8)}}
+.discord-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.6rem 1.2rem;border-radius:12px;background:#5865f2;color:#fff;
+  font-weight:600;font-size:.88rem;text-decoration:none;transition:transform .25s,box-shadow .25s;box-shadow:0 6px 20px rgba(88,101,242,.35)}
+.discord-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(88,101,242,.5)}
+
+/* hero */
+.hero{padding:1.75rem 0 1.25rem;display:grid;gap:1rem}
+.intro{padding:1.5rem 1.6rem;border-radius:16px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);
+  box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.intro h1{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,3.2vw,2.1rem);letter-spacing:-.03em;line-height:1.15;margin-bottom:.6rem;color:var(--ink)}
+.intro p{color:var(--text2);font-size:.95rem;line-height:1.7;max-width:80ch}
+.stats{display:flex;flex-wrap:wrap;gap:.75rem}
+.stat{display:flex;align-items:baseline;gap:.5rem;padding:.5rem .9rem;border-radius:12px;background:var(--card);border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.stat b{font-family:var(--display);font-size:1.25rem;font-weight:800;letter-spacing:-.03em;color:var(--ink)}
+.stat span{color:var(--text2);font-size:.85rem}
+.stat.hot{border-color:rgba(244,63,94,.4)}
+.stat.hot b{color:var(--red)}
+
+/* toolbar */
+.toolbar{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin-bottom:1rem}
+.search{position:relative;flex:1 1 280px}
+.search i{position:absolute;left:1rem;top:50%;transform:translateY(-50%);color:var(--text3);font-size:.9rem}
+.search input{width:100%;padding:.85rem 1rem .85rem 2.6rem;border-radius:14px;border:1px solid var(--line);background:var(--card2);color:var(--text);font-size:.95rem;outline:none;transition:.25s;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.search input::placeholder{color:var(--text3)}
+.search input:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(139,92,246,.18)}
+.seg{display:flex;padding:.25rem;border-radius:14px;background:var(--card);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.seg button{border:0;background:none;color:var(--text2);padding:.6rem 1rem;border-radius:10px;font-weight:600;font-size:.85rem;cursor:pointer;transition:.25s}
+.seg button:hover{color:var(--ink)}
+.seg button.on{background:var(--accent);color:#fff;box-shadow:0 4px 12px rgba(139,92,246,.4)}
+
+.chips{display:flex;gap:.5rem;overflow-x:auto;padding:.25rem 0 1rem;margin-bottom:1rem;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:.5rem;padding:.55rem 1rem;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--text2);font-weight:500;font-size:.85rem;cursor:pointer;transition:.25s;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.chip:hover{border-color:var(--line2);color:var(--ink);transform:translateY(-1px)}
+.chip .n{font-size:.72rem;padding:.05rem .45rem;border-radius:99px;background:rgba(148,163,184,.14);color:var(--ink2);font-weight:700}
+.chip.on{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
+.chip.on .n{background:rgba(255,255,255,.22);color:#fff}
+
+/* leagues */
+.league{margin-top:2.2rem}
+.league-head{display:flex;align-items:center;gap:.8rem;margin-bottom:1rem;flex-wrap:wrap}
+.league-head img{width:28px;height:28px;object-fit:contain;padding:4px;border-radius:10px;background:var(--card2);border:1px solid var(--line)}
+.league-head h2{font-family:var(--display);font-size:1.15rem;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
+.league-top .league-head h2{color:var(--accent)}
+.tag{font-size:.75rem;padding:.2rem .65rem;border-radius:99px;background:var(--card2);color:var(--text2);border:1px solid var(--line)}
+.tag.live{background:rgba(244,63,94,.12);color:var(--red);border-color:rgba(244,63,94,.35);display:inline-flex;align-items:center;gap:.35rem}
+.tag.top{background:rgba(139,92,246,.12);color:var(--accent);border-color:rgba(139,92,246,.35);font-weight:700;display:inline-flex;align-items:center;gap:.35rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:.85rem}
+
+/* match card — dark */
+.card{position:relative;display:flex;flex-direction:column;gap:.8rem;padding:.9rem 1rem 1rem;border-radius:16px;
+  background:var(--card);border:1px solid var(--line);overflow:hidden;
+  box-shadow:0 2px 10px rgba(0,0,0,.35);
+  transition:transform .35s cubic-bezier(.22,.61,.36,1),border-color .35s ease,box-shadow .35s ease,opacity .35s ease}
+.card:hover{transform:translateY(-3px);border-color:var(--line2);
+  box-shadow:0 16px 36px rgba(0,0,0,.5),0 0 24px rgba(139,92,246,.1)}
+.card.is-live{border-color:rgba(244,63,94,.5);box-shadow:0 0 0 1px rgba(244,63,94,.12),0 8px 24px rgba(244,63,94,.1)}
+.card.is-ended{opacity:.55}
+.card.is-ended:hover{opacity:.85}
+.c-top{display:flex;align-items:center;justify-content:space-between;gap:.5rem;font-size:.72rem;color:var(--text3)}
+.c-top .when{display:flex;align-items:center;gap:.4rem}
+.badge{display:inline-flex;align-items:center;gap:.3rem;padding:.14rem .55rem;border-radius:99px;font-size:.66rem;font-weight:700}
+.badge.live{background:var(--red);color:#fff}
+.badge.live .dot{background:#fff;box-shadow:none;width:5px;height:5px}
+.badge.up{background:rgba(245,158,11,.12);color:var(--gold)}
+.badge.end{background:rgba(148,163,184,.1);color:var(--text3)}
+.c-teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:.6rem}
+.team{display:flex;flex-direction:column;align-items:center;gap:.4rem;text-align:center;min-width:0}
+.team img{width:42px;height:42px;object-fit:contain;padding:4px;border-radius:10px;background:var(--card2);border:1px solid var(--line);
+  transition:transform .35s cubic-bezier(.22,.61,.36,1),border-color .35s ease}
+.card:hover .team img{transform:scale(1.09);border-color:var(--line2)}
+.team span{font-weight:600;font-size:.8rem;line-height:1.3;max-width:100%;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--ink2)}
+.c-time{display:flex;flex-direction:column;align-items:center;gap:.15rem}
+.c-time b{font-family:var(--display);font-size:.95rem;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
+.c-time small{font-size:.62rem;color:var(--text3);text-transform:uppercase;letter-spacing:.05em}
+
+/* watch button — violet gradient */
+.watch{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;width:100%;padding:.6rem .9rem;
+  border-radius:11px;cursor:pointer;border:1px solid transparent;background:linear-gradient(135deg,#8b5cf6,#6d28d9);color:#fff;
+  font-weight:700;font-size:.78rem;letter-spacing:.02em;
+  transition:background .2s ease,transform .15s ease,box-shadow .2s ease}
+.watch i{font-size:.7rem;transition:transform .25s ease}
+.watch:hover{background:linear-gradient(135deg,#7c3aed,#5b21b6);box-shadow:0 6px 18px rgba(139,92,246,.45)}
+.watch:hover i{transform:scale(1.15)}
+.watch:active{transform:translateY(1px)}
+.card.is-live .watch{background:linear-gradient(135deg,#f43f5e,#e11d48)}
+.card.is-live .watch:hover{background:linear-gradient(135deg,#e11d48,#be123c);box-shadow:0 6px 18px rgba(244,63,94,.45)}
+.card.is-ended .watch{background:var(--card2);border-color:var(--line2);color:var(--text2);box-shadow:none}
+.card.is-ended .watch:hover{background:#16203a;color:var(--ink)}
+.watch[disabled]{opacity:.45;cursor:not-allowed}
+
+/* states */
+.state{padding:3.5rem 1.5rem;text-align:center;border-radius:20px;background:var(--card);border:1px dashed var(--line2);color:var(--text2);line-height:1.6}
+.state.err{border-color:rgba(244,63,94,.5);color:var(--red)}
+.state button{margin-top:1rem;padding:.65rem 1.3rem;border-radius:12px;border:0;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+.skel{height:210px;border-radius:20px;background:linear-gradient(100deg,#101828 30%,#182238 50%,#101828 70%);background-size:300% 100%;animation:sh 1.4s infinite}
+@keyframes sh{to{background-position:-100% 0}}
+
+/* article — single container */
+.guide{margin-top:3rem;padding:1.6rem 1.7rem;border-radius:20px;background:var(--card);border:1px solid var(--line);
+  box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.guide section{padding-top:1.5rem;margin-top:1.5rem;border-top:1px solid var(--line)}
+.guide section:first-child{padding-top:0;margin-top:0;border-top:0}
+.guide h2{font-family:var(--display);font-size:1.18rem;font-weight:700;letter-spacing:-.02em;line-height:1.35;margin-bottom:.6rem;color:var(--ink)}
+.guide h3{font-family:var(--display);font-size:1rem;font-weight:700;letter-spacing:-.01em;margin:1.15rem 0 .35rem;color:var(--ink)}
+.guide p,.guide li{color:var(--text2);font-size:.93rem;line-height:1.8}
+.guide ul{padding-left:1.1rem;display:grid;gap:.35rem}
+.guide p+p{margin-top:.6rem}
+
+/* FAQ accordion */
+.faq details{background:var(--card2);border:1px solid var(--line);border-radius:13px;overflow:hidden;transition:border-color .25s ease,background .25s ease}
+.faq details+details{margin-top:.6rem}
+.faq details[open]{border-color:var(--line2);background:var(--card)}
+.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:.9rem;
+  padding:.85rem 1.1rem;font-weight:600;font-size:.92rem;color:var(--ink);user-select:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--accent)}
+.faq summary i{flex:0 0 auto;color:var(--text3);font-size:.75rem;transition:transform .3s ease,color .3s ease}
+.faq details[open] summary i{transform:rotate(180deg);color:var(--accent)}
+.faq details p{padding:0 1.1rem .95rem;color:var(--text2);font-size:.9rem;line-height:1.75}
+
+.foot{margin-top:2rem;text-align:center;color:var(--text3);font-size:.8rem}
+
+/* ---------- ADS (sticky) ---------- */
+.ad-side{position:fixed;top:50%;transform:translateY(-50%);width:160px;height:600px;z-index:40;display:none;overflow:hidden}
+#adLeft{left:10px}
+#adRight{right:10px}
+.ad-bottom{position:fixed;bottom:10px;left:50%;width:728px;height:90px;z-index:40;display:none;overflow:hidden;border-radius:12px;
+  transform:translateX(-50%);transform-origin:bottom center}
+@media(min-width:1620px){.ad-side{display:block}}
+@media(min-width:790px){.ad-bottom{display:block}body{padding-bottom:112px}}
+@media(max-width:789px){
+  .ad-bottom{display:block;transform:translateX(-50%) scale(.44);border-radius:8px}
+  body{padding-bottom:70px}
+}
+@media(max-width:640px){
+  .app{padding:.75rem .8rem 3rem}
+  .discord-btn span{display:none}.discord-btn{padding:.65rem .8rem}
+  .grid{grid-template-columns:1fr}
+  .seg{width:100%}.seg button{flex:1;padding:.6rem .4rem}
+  .hero{padding-top:2rem}
+  .guide{padding:1.2rem 1.1rem}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<!-- Popunder ad -->
+<script data-cfasync="false" src="https://capitalhospitals.org/1/cd2ede3915aed8ac32648df7385b788a"></script>
+
+<div class="bg-orbs"></div>
+
+<div class="app">
+  <header class="header">
+    <div class="logo">
+      <div class="logo-mark">
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs><linearGradient id="lgo" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#6d28d9"/></linearGradient></defs>
+          <rect width="44" height="44" rx="12" fill="url(#lgo)"/>
+          <path d="M18.5 14.5 30 22l-11.5 7.5v-15Z" fill="#fff"/>
+        </svg>
+      </div>CrackStreams</div>
+    <div class="head-right">
+      <a href="https://discord.gg/aEqBuf8Ys" class="discord-btn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-discord"></i><span>Join Discord</span></a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="intro">
+      <h1>CrackStreams, Streameast, MethStreams, Sportsurge — Every Live Sport, One Board</h1>
+      <p>The sporting week never stops, and neither does this board. CrackStreams, Streameast, MethStreams and Sportsurge are four names for the same self-updating schedule — NFL Sundays, NBA weeknights, UFC fight cards, boxing events, soccer derbies, F1 weekends and everything in between, each fixture drawn as a card with both logos, the start time and a badge that flips red the moment the action begins. Leagues with live events climb the page on their own, the sport chips cut the list down to whatever you follow, and one tap on Watch opens the player in its own tab. From the first whistle of the week to the last bell of fight night, thecrackstreams.life is where the whole calendar lives.</p>
+    </div>
+    <div class="stats">
+      <div class="stat hot"><b id="stLive">0</b><span>live now</span></div>
+      <div class="stat"><b id="stUp">0</b><span>coming up</span></div>
+      <div class="stat"><b id="stAll">0</b><span>total matches</span></div>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <label class="search"><i class="fa-solid fa-magnifying-glass"></i><input id="q" type="search" placeholder="Search teams, fighters or leagues" aria-label="Search teams, fighters or leagues"></label>
+    <div class="seg" id="seg">
+      <button class="on" data-s="all">All</button>
+      <button data-s="live">Live</button>
+      <button data-s="upcoming">Upcoming</button>
+      <button data-s="ended">Ended</button>
+    </div>
+  </div>
+
+  <div class="chips" id="chips"></div>
+
+  <div id="out"><div class="grid"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div>
+
+  <div class="guide">
+    <section>
+      <h2>CrackStreams, Streameast, MethStreams, Sportsurge: Four Names, One Unbeatable Board</h2>
+      <p>Sports fans used to keep a dozen sites in rotation — one for football, one for fights, one for hoops, all of them half-broken by the playoffs. CrackStreams, Streameast, MethStreams and Sportsurge ended the rotation by folding every sport into a single schedule that renews itself. Whatever name you typed to get here, the board on your screen is the same one: same fixtures, same cards, same player, same one-tap path from schedule to stream.</p>
+      <h3>A Board That Speaks Every Sport's Language</h3>
+      <p>Every event on the board answers the same three questions at a glance — who's competing, when it starts, and is it on right now. The badge system handles the last one in color: red for live, gold for upcoming, grey for finished. Leagues with running action rise toward the top of the page automatically, so the hottest events find you instead of the other way around.</p>
+    </section>
+
+    <section>
+      <h2>From Opening the Page to Opening a Stream in Three Moves</h2>
+      <p>Nothing on this board asks for patience. The filters respond instantly, they stack on top of each other, and together they can pull any event out of the busiest sports week of the year without a single reload.</p>
+      <ul>
+        <li>Tap a sport chip in the top row — NFL leads it — to strip the board down to that sport alone.</li>
+        <li>Flip between the All, Live, Upcoming and Ended tabs to sort the day by what's actually happening.</li>
+        <li>Type a team, a fighter or a league into the search bar and the list tightens with every letter.</li>
+        <li>Press Watch on any card and the player page opens in its own tab with the stream already loading.</li>
+        <li>Bookmark thecrackstreams.life once and every remaining event of the season is one tap from your home screen.</li>
+      </ul>
+      <h3>Pass the Game With a Single Link</h3>
+      <p>Whatever filter you build lives in the address bar. Narrow the board to your team, copy the link and drop it in the group chat — thecrackstreams.life/?q=your-team opens with the same shortlist already applied, whether it lands on a phone in the next room or a laptop on another continent. No instructions needed, the page does the talking.</p>
+    </section>
+
+    <section>
+      <h2>What's Playing: The Full CrackStreams, Streameast, MethStreams, Sportsurge Lineup</h2>
+      <p>The board carries the whole sporting calendar at once, with every league grouped under its own heading so nothing tangles together. Football leads the page by design, but the rest of the week is fully covered too.</p>
+      <h3>Football First: NFL Sundays and College Saturdays</h3>
+      <p>The early window, the late window, primetime nights and the international kickoffs all appear with their start times printed plainly on the cards. College football rides right behind the pros, so Saturday is covered the same way Sunday is — and once January arrives, the playoff bracket and the big game land on the board the moment their slots lock.</p>
+      <h3>Hoops All Week: NBA and Beyond</h3>
+      <p>From opening night to the Finals, basketball fixtures flow through the same board. Weeknight games, weekend slates and the postseason all carry live badges the second the ball goes up, and the sport chip cuts the noise down to nothing but hoops whenever you want it.</p>
+      <h3>Fight Night Central: UFC, Boxing and MMA</h3>
+      <p>Numbered UFC cards, Fight Nights, boxing title bouts and MMA events all get their own cards with walk-in times and red badges once the cage door closes. Main card or prelims, the board keeps the whole fight schedule in one place.</p>
+      <h3>The Rest of the World: Soccer, F1 and More</h3>
+      <p>Derbies, title races, grand prix weekends, baseball, hockey, cricket and everything else the calendar carries ride underneath the headline sports — each under its own heading, each one tap from a live stream.</p>
+    </section>
+
+    <section>
+      <h2>Why Fans Trade Ten Bookmarks for CrackStreams</h2>
+      <p>A folder of saved links is a graveyard waiting to happen — half of them die by midseason, and the other half lead to pop-up mazes and fake play buttons. CrackStreams, Streameast, MethStreams and Sportsurge replace all of it with one page that rebuilds itself, one watch button that always points somewhere real, and zero nonsense between you and the broadcast.</p>
+      <h3>Dark, Lean and Lightning Fast</h3>
+      <p>The board is deliberately thin: logos load lazily, nothing heavy runs before you press Watch, and the dark theme keeps night games easy on the eyes. Old phone, weak signal, borrowed wifi — the page renders fast everywhere and stays out of the way while the sport takes the stage.</p>
+    </section>
+
+    <section>
+      <h2>No Sign-Up, No Fees — Just CrackStreams, Streameast, MethStreams, Sportsurge</h2>
+      <p>No account stands between you and the board. No email to hand over, no trial timer, no premium tier holding the good events hostage. Open thecrackstreams.life, read the slate, tap Watch — that's the entire flow. However you found this board, the event you came for was already waiting on it.</p>
+    </section>
+
+    <section class="faq">
+      <h2>CrackStreams, Streameast, MethStreams, Sportsurge FAQ – Frequently Asked Questions</h2>
+
+      <details>
+        <summary>Are CrackStreams, Streameast, MethStreams and Sportsurge the same site?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>Yes. CrackStreams, Streameast, MethStreams and Sportsurge are four names for the same board. The schedule, the match cards and the player page are shared, so whichever name you searched, you land on the same live sports list.</p>
+      </details>
+
+      <details>
+        <summary>Does CrackStreams show UFC and boxing?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>Yes. UFC fight cards, boxing events and MMA nights appear on the board whenever they are scheduled, each with start times and a live badge once the action begins.</p>
+      </details>
+
+      <details>
+        <summary>Can I watch the NFL and NBA on the same board?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>Yes. The board carries every sport in the feed at once — NFL Sundays, NBA weeknights, soccer, baseball, hockey and more — and the sport chips let you cut the list down to any one of them in a tap.</p>
+      </details>
+
+      <details>
+        <summary>How do I find one specific game fast?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>Type the team or fighter name into the search bar and the board narrows with every letter. You can also open a shared link like thecrackstreams.life/?q=your-team, which arrives with the filter already applied.</p>
+      </details>
+
+      <details>
+        <summary>Do I need an account for CrackStreams, Streameast, MethStreams, Sportsurge?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>No. There is no sign-up form, no email capture and no payment step anywhere. Open the page, find your event and press watch.</p>
+      </details>
+
+      <details>
+        <summary>Does the board work on phones and smart TVs?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>Yes. The board adapts to any screen size and the player works in any modern browser, including smart TV browsers, with full-screen support everywhere.</p>
+      </details>
+
+      <details>
+        <summary>What should I do if a stream buffers?<i class="fa-solid fa-chevron-down"></i></summary>
+        <p>Press Reload Stream on the player page once. If it still struggles, open the direct link in a new tab, and if the problem persists, report the event on the Discord server linked in the header.</p>
+      </details>
+    </section>
+  </div>
+  <p class="foot">&copy; CrackStreams, Streameast, MethStreams, Sportsurge. All team and league names and logos belong to their respective owners.</p>
+</div>
+
+<!-- ===== ADS: sirf 3 div — jitni ads utne ===== -->
+<!-- Left 160x600 sticky (desktop wide screens) -->
+<div class="ad-side" id="adLeft">
+  <script type="text/javascript">
+    atOptions = {'key':'8460d979eaa04e23e84499b613e6aca9','format':'iframe','height':600,'width':160,'params':{}};
+  </script>
+  <script type="text/javascript" src="https://czernik.org/22/8460d979eaa04e23e84499b613e6aca9"></script>
+</div>
+
+<!-- Right 160x600 sticky (desktop wide screens) -->
+<div class="ad-side" id="adRight">
+  <script type="text/javascript">
+    atOptions = {'key':'8460d979eaa04e23e84499b613e6aca9','format':'iframe','height':600,'width':160,'params':{}};
+  </script>
+  <script type="text/javascript" src="https://czernik.org/22/8460d979eaa04e23e84499b613e6aca9"></script>
+</div>
+
+<!-- Bottom 728x90 sticky (desktop full size + mobile scaled) -->
+<div class="ad-bottom" id="adBottom">
+  <script type="text/javascript">
+    atOptions = {'key':'6786ca601524f56715d5859a0fc7658f','format':'iframe','height':90,'width':728,'params':{}};
+  </script>
+  <script type="text/javascript" src="https://czernik.org/22/6786ca601524f56715d5859a0fc7658f"></script>
+</div>
+
+<!-- Histats analytics -->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5048377,4,9,110,60,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5048377&101" alt="website stats" border="0"></a></noscript>
+
+<script>
+(function(){
+  const API_URL='https://ovogoal.pages.dev//api/v2/flyembed2.json';
+  const $=id=>document.getElementById(id);
+  const out=$('out'),chips=$('chips'),q=$('q'),seg=$('seg');
+  let all=[],sport='all',status='all';
+
+  const META={soccer:['Soccer','fa-futbol'],basketball:['NBA','fa-basketball'],football:['NFL','fa-football'],hockey:['NHL','fa-hockey-puck'],
+    mma:['UFC','fa-hand-fist'],baseball:['MLB','fa-baseball'],tennis:['Tennis','fa-table-tennis-paddle-ball'],motorsport:['F1','fa-flag-checkered'],
+    cricket:['Cricket','fa-baseball-bat-ball'],rugby:['Rugby','fa-football'],golf:['Golf','fa-golf-ball-tee'],boxing:['Boxing','fa-hand-fist'],
+    volleyball:['Volleyball','fa-volleyball'],handball:['Handball','fa-hand'],esports:['Esports','fa-gamepad']};
+
+  const FB="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='11' fill='%230d1526'/><path fill='%238b5cf6' d='M12 5l3 4h-2v5h-2V9H9l3-4z'/></svg>";
+  const esc=s=>s==null?'':String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+  const img=(src,cls)=>`<img ${cls?`class="${cls}" `:''}src="${esc(src||FB)}" alt="" loading="lazy" onerror="this.onerror=null;this.src=this.dataset.fb" data-fb="${FB}">`;
+
+  // ===== NFL / NCAA TOP PRIORITY =====
+  function leaguePrio(k){
+    const s=String(k).toLowerCase();
+    if(s.includes('nfl'))return 0;
+    if(s.includes('ncaa')||s.includes('college'))return 1;
+    return 9;
+  }
+
+  function fmtTime(t){
+    if(!t)return '--:--';
+    const p=String(t).split(':');if(p.length<2)return t;
+    let h=parseInt(p[0],10);if(isNaN(h))return t;
+    const ap=h>=12?'PM':'AM';h=h%12||12;
+    return `${h}:${p[1].slice(0,2)} ${ap}`;
+  }
+  function fmtDate(d){
+    if(!d)return 'TBD';
+    const x=new Date(d+'T00:00:00');if(isNaN(x))return d;
+    const today=new Date();today.setHours(0,0,0,0);
+    const diff=Math.round((x-today)/864e5);
+    if(diff===0)return 'Today';if(diff===1)return 'Tomorrow';if(diff===-1)return 'Yesterday';
+    return x.toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+  }
+  function norm(s){
+    if(!s)return '';s=String(s).toLowerCase().trim();
+    if(s.includes('soccer'))return 'soccer';
+    if(s.includes('basketball')||s.includes('nba'))return 'basketball';
+    if(s.includes('american football')||s.includes('nfl'))return 'football';
+    if(s.includes('hockey')||s.includes('nhl'))return 'hockey';
+    if(s.includes('mma')||s.includes('ufc'))return 'mma';
+    if(s.includes('baseball')||s.includes('mlb'))return 'baseball';
+    if(s.includes('tennis'))return 'tennis';
+    if(/motorsport|formula|f1|racing/.test(s))return 'motorsport';
+    for(const k of ['cricket','rugby','golf','boxing','volleyball','handball'])if(s.includes(k))return k;
+    if(s.includes('esport'))return 'esports';
+    return s;
+  }
+  function getStatus(m){
+    try{
+      if(!m.MatchDate||!m.MatchStartTime)return 'upcoming';
+      const start=new Date(`${m.MatchDate}T${m.MatchStartTime}:00`);
+      if(isNaN(start))return 'upcoming';
+      let end;
+      if(m.MatchEndTime){end=new Date(`${m.MatchDate}T${m.MatchEndTime}:00`);if(!isNaN(end)&&end<=start)end.setDate(end.getDate()+1);}
+      if(!end||isNaN(end))end=new Date(start.getTime()+72e5);
+      const now=new Date();
+      if(now>=end)return 'ended';
+      if(now>=new Date(start.getTime()-3e5))return 'live';
+      return 'upcoming';
+    }catch(e){return 'upcoming'}
+  }
+  const startMs=m=>{const d=new Date(`${m.MatchDate}T${m.MatchStartTime}:00`);return isNaN(d)?0:d.getTime()};
+  const rank={live:0,upcoming:1,ended:2};
+
+  function card(m){
+    const st=m._st;
+    const badge=st==='live'?`<span class="badge live"><span class="dot"></span>LIVE</span>`:st==='ended'?`<span class="badge end">Ended</span>`:`<span class="badge up">Upcoming</span>`;
+    const url=/^https?:\/\//i.test(m.IframeURL||'')?m.IframeURL:'';
+    const title=(m.Team1||'Team 1')+' vs '+(m.Team2||'Team 2');
+    return `<article class="card ${st==='live'?'is-live':''} ${st==='ended'?'is-ended':''}">
+      <div class="c-top"><span class="when"><i class="fa-regular fa-calendar"></i>${esc(fmtDate(m.MatchDate))}</span>${badge}</div>
+      <div class="c-teams">
+        <div class="team">${img(m.Team1Logo)}<span>${esc(m.Team1||'Team 1')}</span></div>
+        <div class="c-time"><b>${esc(fmtTime(m.MatchStartTime))}</b><small>start</small></div>
+        <div class="team">${img(m.Team2Logo)}<span>${esc(m.Team2||'Team 2')}</span></div>
+      </div>
+      <button class="watch" data-url="${esc(url)}" data-title="${esc(title)}"${url?'':' disabled'}><i class="fa-solid fa-play"></i>${st==='live'?'Watch live':st==='ended'?'Watch replay':'Watch'}</button>
+    </article>`;
+  }
+
+  function render(list){
+    if(!list.length){
+      out.innerHTML=`<div class="state"><i class="fa-regular fa-face-meh" style="font-size:1.8rem;margin-bottom:.6rem;display:block"></i>No matches found. Try another sport, status or search.</div>`;
+      return;
+    }
+    const groups={},names={};
+    list.forEach(m=>{const raw=String(m.League||'Other').trim(),k=raw.toLowerCase();names[k]=names[k]||raw;(groups[k]=groups[k]||[]).push(m)});
+    const keys=Object.keys(groups).sort((a,b)=>{
+      const pa=leaguePrio(a),pb=leaguePrio(b);
+      if(pa!==pb)return pa-pb;
+      const la=groups[a].some(m=>m._st==='live'),lb=groups[b].some(m=>m._st==='live');
+      return la!==lb?(la?-1:1):a.localeCompare(b);
+    });
+    out.innerHTML=keys.map(k=>{
+      const items=groups[k].sort((a,b)=>rank[a._st]-rank[b._st]||startMs(a)-startMs(b));
+      const lc=items.filter(m=>m._st==='live').length;
+      const isTop=leaguePrio(k)<9;
+      return `<section class="league ${isTop?'league-top':''}"><div class="league-head">${img(items[0].LeagueLogo)}<h2>${esc(names[k])}</h2>
+        ${isTop?`<span class="tag top"><i class="fa-solid fa-fire"></i>Top</span>`:''}
+        ${lc?`<span class="tag live"><span class="dot"></span>${lc} live</span>`:''}
+        <span class="tag">${items.length} ${items.length===1?'match':'matches'}</span></div>
+        <div class="grid">${items.map(card).join('')}</div></section>`;
+    }).join('');
+  }
+
+  function stats(){
+    const live=all.filter(m=>m._st==='live').length,up=all.filter(m=>m._st==='upcoming').length;
+    $('stLive').textContent=live;$('stUp').textContent=up;$('stAll').textContent=all.length;
+  }
+
+  function buildChips(){
+    const c={};all.forEach(m=>{const s=norm(m.Sport);if(s)c[s]=(c[s]||0)+1});
+    const slugs=Object.keys(c).sort((a,b)=>{
+      const pa=a==='football'?0:9,pb=b==='football'?0:9;
+      if(pa!==pb)return pa-pb;
+      return c[b]-c[a];
+    });
+    chips.innerHTML=`<button class="chip ${sport==='all'?'on':''}" data-sp="all"><i class="fa-solid fa-layer-group"></i>All<span class="n">${all.length}</span></button>`+
+      slugs.map(s=>{const m=META[s]||[s.charAt(0).toUpperCase()+s.slice(1),'fa-trophy'];
+        return `<button class="chip ${sport===s?'on':''}" data-sp="${esc(s)}"><i class="fa-solid ${m[1]}"></i>${esc(m[0])}<span class="n">${c[s]}</span></button>`}).join('');
+  }
+
+  function apply(){
+    all.forEach(m=>m._st=getStatus(m));
+    stats();
+    const t=q.value.toLowerCase().trim();
+    let f=all;
+    if(sport!=='all')f=f.filter(m=>norm(m.Sport)===sport);
+    if(status!=='all')f=f.filter(m=>m._st===status);
+    if(t)f=f.filter(m=>[m.Team1,m.Team2,m.League].some(x=>(x||'').toLowerCase().includes(t)));
+    render(f);
+  }
+
+  async function load(){
+    try{
+      const r=await fetch(API_URL,{cache:'no-store'});
+      if(!r.ok)throw new Error('HTTP '+r.status);
+      const d=await r.json();
+      all=Array.isArray(d)?d:[];
+      if(!all.length){out.innerHTML=`<div class="state">No matches available right now. Check back soon.</div>`;stats();return}
+      buildChips();apply();
+    }catch(e){
+      console.error(e);
+      if(!all.length)out.innerHTML=`<div class="state err">Couldn't load matches (${esc(e.message)}).<br>The server may be busy.<br><button id="retry">Try again</button></div>`;
+    }
+  }
+
+  chips.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;sport=b.dataset.sp;chips.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x===b));apply()});
+  seg.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;status=b.dataset.s;seg.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));apply()});
+  out.addEventListener('click',e=>{
+    if(e.target.closest('#retry'))return load();
+    const b=e.target.closest('.watch');
+    if(b&&b.dataset.url){
+      window.open('watch.html?url='+encodeURIComponent(b.dataset.url)+'&title='+encodeURIComponent(b.dataset.title||'Live Match'),'_blank','noopener');
+    }
+  });
+  let tm;q.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(apply,180)});
+
+  // support ?q= search links (e.g. thecrackstreams.life/?q=chiefs)
+  const usp=new URLSearchParams(location.search).get('q');
+  if(usp)q.value=usp;
+
+  load();
+  setInterval(()=>{if(all.length)apply()},60000);
+  setInterval(load,300000);
+})();
+</script>
+</body>
+</html>
